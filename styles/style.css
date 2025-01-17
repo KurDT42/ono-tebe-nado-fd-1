@@ -9,7 +9,7 @@
 	display: flex;
 	list-style-type: circle;
 	padding-left: 50px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -40,7 +40,7 @@
 .address {
 	padding-right: 87px;
 	justify-self: end;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -79,7 +79,7 @@
 .cover-title {
 	padding: 165px 50px 0 50px;
 	height: 385px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 100px;
@@ -114,7 +114,7 @@
 }
 
 .cover-desc-text {
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;
@@ -126,7 +126,7 @@
 
 .btn-desc {
 	padding: 12px 32px 11px 31px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 22px;
@@ -157,7 +157,7 @@
 
 .lots-title {
 	padding: 0 0 27px 40px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -170,6 +170,7 @@
 	list-style-type: none;
 	gap: 25px;
 	flex-wrap: wrap;
+	margin-bottom: 30px;
 }
 
 .lots-card-item {
@@ -205,7 +206,7 @@
 }
 
 .card-title {
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 22px;
@@ -217,7 +218,7 @@
 }
 
 .card-text {
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -241,16 +242,16 @@
 	padding-top: 5px;
 	cursor: pointer;
 	margin-left: 40px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 23px;
 	text-decoration: none;
 	border-bottom: 1px solid black;
-	
 }
-.card-link{
+
+.card-link {
 	cursor: pointer;
 }
 
@@ -292,7 +293,7 @@
 .about-title {
 	padding-top: 133px;
 	padding-bottom: 100px;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -301,8 +302,8 @@
 }
 
 .about-text {
-	 width: 690px; 
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	width: 690px;
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -328,7 +329,7 @@
 }
 
 .address-footer-item {
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -351,7 +352,7 @@
 .footer-menu-item {
 	padding-left: 110px;
 	list-style-type: none;
-	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-family: "Raleway", "Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
