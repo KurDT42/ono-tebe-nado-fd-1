@@ -1,45 +1,46 @@
 .header {
 	height: 293px;
-	border: 3px solid black;
 	display: grid;
 	grid-template-columns: 1fr min-content 1fr;
 	align-items: center;
 }
+
 .header-nav-box {
 	display: flex;
 	list-style-type: circle;
 	padding-left: 50px;
-	font-family: "Raleway";
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
 
-	color: #000000;
 }
 
 .header-nav-box li {
-	margin-right: 15px;
+	margin-right: 20px;
 	padding-right: 13px;
 }
 
-.header__link {
+.link {
 	text-decoration: none;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
-.header__link_active {
+.link-active {
 	text-decoration: none;
 }
 
 .logo-white {
-	width: 148px;
+	padding-top: 7px;
+	width: 135px;
+	cursor: pointer;
 }
 
 .address {
-	padding-right: 50px;
+	padding-right: 87px;
 	justify-self: end;
-	font-family: "Raleway";
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -48,7 +49,7 @@
 
 .address a {
 	text-decoration: none;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 /* Секция 
@@ -58,10 +59,9 @@
                  НАДО */
 
 .cover {
-	z-index: 3;
+	z-index: 2;
 	width: 1100px;
 	min-height: 757px;
-	border: 3px solid black;
 	background-image: url("/images/cover.jpg");
 	position: relative;
 	background-repeat: no-repeat;
@@ -73,13 +73,13 @@
 	inset: 0;
 	position: absolute;
 	background: rgba(0, 0, 0, 0.6);
-	z-index: -1;
+	z-index: 1;
 }
 
 .cover-title {
 	padding: 165px 50px 0 50px;
 	height: 385px;
-	font-family: "Raleway";
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 100px;
@@ -112,8 +112,9 @@
 	padding: 270px 40px 0 50px;
 	gap: 110px;
 }
+
 .cover-desc-text {
-	font-family: "Raleway";
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;
@@ -122,9 +123,10 @@
 	color: #ffffff;
 	word-spacing: 18px;
 }
+
 .btn-desc {
 	padding: 12px 32px 11px 31px;
-	font-family: "Raleway";
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 22px;
@@ -134,4 +136,263 @@
 	background-color: rgba(0, 0, 0, 0.1);
 	border: 1px solid #ffffff;
 	color: #ffffff;
+	cursor: pointer;
+}
+
+.btn-desc:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*
+			Секция лоты 	
+			   ▯▯▯
+
+*/
+
+.lots {
+	padding-left: 24px;
+	margin-top: 180px;
+	margin-bottom: 120px;
+}
+
+.lots-title {
+	padding: 0 0 27px 40px;
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+
+.lots-card-list-box {
+	display: flex;
+	list-style-type: none;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.lots-card-item {
+	width: 334px;
+	height: 596px;
+
+}
+
+/*	Стили для фонов лотов	*/
+
+.card-type-film {
+	background-image: url(/images/card-lot-01.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-type-book {
+	background-image: url(/images/card-lot-02.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-type-picture {
+	background-image: url(/images/card-lot-03.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-title {
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 120%;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 48px 40px 0 40px;
+}
+
+.card-text {
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 120%;
+	color: #FFFFFF;
+	padding: 0 40px 48px 40px;
+}
+
+
+
+.card-box {
+	align-items: center;
+	width: 334px;
+	height: 596px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.lots-more-link {
+	padding-top: 5px;
+	cursor: pointer;
+	margin-left: 40px;
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	
+}
+.card-link{
+	cursor: pointer;
+}
+
+/* СЕКЦИЯ ОБ АУКЦИОНЕ 
+	◐ ☰
+
+*/
+
+.about-auction {
+	padding-left: 24px;
+	width: 1052px;
+	height: 595px;
+}
+
+.about-column-box {
+	display: grid;
+	grid-template-columns: 334px 1fr;
+	grid-template-rows: 596px;
+	gap: 25px;
+	height: auto;
+}
+
+.about-column-logo {
+	margin: 35px 72px 0 47px;
+	background-color: #000000;
+	width: 240px;
+	height: 240px;
+	border-radius: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-logo-image {
+	width: 148px;
+	height: 114px;
+}
+
+.about-title {
+	padding-top: 133px;
+	padding-bottom: 100px;
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+
+.about-text {
+	 width: 690px; 
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.about-text::after {
+	content: "";
+	display: block;
+	height: 23px;
+}
+
+/*FOOTER
+	⋯
+
+*/
+
+.footer {
+	margin-top: 180px;
+	height: 180px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.address-footer-item {
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	padding-left: 50px;
+
+
+}
+
+.address-footer-item a {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+.footer-menu {
+	display: flex;
+
+}
+
+.footer-menu-item {
+	padding-left: 110px;
+	list-style-type: none;
+	font-family: "Raleway","Arial", "Helvetica", "Lucida Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.footer-menu-item li {
+	text-decoration: solid;
+}
+
+.footer-menu-item a {
+	text-decoration: none;
+}
+
+.link-after {
+	position: relative;
+	display: inline-block;
+}
+
+.link-after::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0.8px;
+	background-color: black;
+
+}
+
+.footer-social-item {
+	padding-left: 77px;
+	display: flex;
+	gap: 48px;
+}
+
+.footer-social-icon {
+	width: 48px;
+}
+
+.footer-social-link {
+	cursor: pointer;
 }
